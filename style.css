@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: #f3ffbf;
+}
+nav{
+  display: flex;
+    align-items: center;
+    background: khaki;
+    height: 140px;
+    justify-content: center;
+}
+
+nav p{
+ font-size: 100px;
+ margin-left: 20px;
+ padding: 60px;
+ font-family: 'Delicious Handrawn', cursive;
+}
+
+.container{
+  position: relative;
+  margin-left: 150px;
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(3,25vw);
+  grid-template-rows: repeat(3,25vw);
+  
+}
+
+.box{
+  border: 2px solid black;
+  font-size:12vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:hover{
+  background:#c8abff;
+}
+
+.gameInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameInfo h1{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 70px;
+  font-family: 'Raleway', sans-serif;
+  background: hotpink;
+  width: 80%;
+  
+  border-radius: 20px;
+}
+
+.info{
+  font-size: 50px;
+  margin-top: 20px;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#reset{
+  font-size: 40px;
+  padding: 20px;
+  margin-top: 30px;
+  background: khaki;
+  border-radius: 50px;
+}
+
+.gif{
+  width: 0;
+  transition: width 1s ease-in-out;
+}
+
+.br{
+  border-right: 0;
+}
+
+.bt{
+  border-top: 0;
+}
+
+.bl{
+  border-left: 0;
+}
+
+
+.bd{
+  border-bottom: 0;
+}
